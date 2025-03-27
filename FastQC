@@ -13,7 +13,7 @@ ml biocontainers fastqc
 INPUT_DIR="$SCRATCH/RNAseq/mdg_017_R_S41_L004"
 SAMPLE_R1="$INPUT_DIR/clean.R1.fq.gz"
 SAMPLE_R2="$INPUT_DIR/clean.R2.fq.gz"
-SCRATCH_DIR="$SCRATCH/RNAseq"
+SCRATCH_DIR="$SCRATCH/RNAseq/med_017_R_S41_L004"
 OUT_DIR="$SCRATCH_DIR/fastqc_out"
 
 fastqc "$SAMPLE_R1" "$SAMPLE_R2" --outdir "$OUT_DIR" 
